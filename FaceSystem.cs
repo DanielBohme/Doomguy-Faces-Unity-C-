@@ -111,7 +111,7 @@ public class FaceSystem : MonoBehaviour
                 pick = 16;
             }
 
-            if (PlayerHealth.damaged == true)
+            if (PlayerHealth.damaged == true)   // add a bool for when damaged in your health script!
             {
                 timer = 0.5f;
                 pick = 21;
