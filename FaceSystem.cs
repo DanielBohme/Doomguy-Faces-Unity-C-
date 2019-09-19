@@ -43,11 +43,11 @@ public class FaceSystem : MonoBehaviour
     public Texture2D DMG2039;
     public Texture2D DMG119;
 
-    public int pick;
+    int pick;
 
     Texture2D[] imgs;
     int i;
-    public float timer;
+    float timer;
 
     public PlayerHealth PlayerHealth;
 
